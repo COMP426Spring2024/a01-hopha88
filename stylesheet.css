@@ -15,12 +15,68 @@
 
 */
 
-.center {
-    margin: auto;
-    width: 50%;
+#foundation {
+    background-color: #333b58;
+}
+
+.container {
+    background-image: url(/pngs/sun.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-color: rgb(134, 181, 255);
+}
+
+.body {
+    display: table;
+    margin: 0px 25% 0px 5%
 }
 
 .sidebar {
-    margin: auto;
-    width: 10%;
+    display: table-cell;
+    margin: 10px 10px 10px 10px;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.row {
+    display: table-row;
+}
+
+.column {
+    display: table-column
+}
+
+.content {
+    display: table-cell;
+    vertical-align: top;
+    margin: 5px;
+    padding: 50px;
+    font-family: "Comic Sans MS";
+}
+
+.textbox {
+    border-radius: 20px;
+    border: 5px black;
+    background: rgb(255, 255, 255);
+    font-family: "Comic Sans MS";
+    max-width: 75%;
+    padding: 15px;
+    margin: 45px;
+}
+
+.image {
+    width: 700px;
+    height: auto;
+}
+
+.butt {
+    margin: 0;
+    border: 0;
+    padding: 120px;
+    background-image: url(/pngs/clouds.png);
+    background-repeat: repeat-x;
+}
+
+.link:hover {
+    color:rgb(200, 68, 230)
 }
