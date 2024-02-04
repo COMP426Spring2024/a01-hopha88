@@ -33,9 +33,9 @@
 
 .sidebar {
     display: table-cell;
-    margin: 10px 10px 10px 10px;
-    padding: 25px 25px 25px 25px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: larger;
 }
 
 .row {
@@ -59,13 +59,18 @@
     border: 5px black;
     background: rgb(255, 255, 255);
     font-family: "Comic Sans MS";
-    max-width: 75%;
-    padding: 15px;
+    max-width: 80%;
+    padding: 10px 50px;
     margin: 45px;
 }
 
 .image {
-    width: 700px;
+    width: 500px;
+    height: auto;
+}
+
+.smallimg{
+    width: 150px;
     height: auto;
 }
 
@@ -75,6 +80,11 @@
     padding: 120px;
     background-image: url(/pngs/clouds.png);
     background-repeat: repeat-x;
+}
+
+.link {
+    color:rgb(226, 48, 48);
+    font-family: "Comic Sans MS";
 }
 
 .link:hover {
